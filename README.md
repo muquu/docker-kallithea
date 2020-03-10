@@ -12,7 +12,7 @@ For use local network.
 
 # usage
 
-Prepare configulation file `my.ini` and database `kallithea.db` .
+Prepare configuration file `my.ini` and database `kallithea.db` .
 
 ```
 > docker run -d -p 80:80 \
