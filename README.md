@@ -15,7 +15,7 @@ For use local network.
 Prepare configuration file `my.ini` and database `kallithea.db` .
 
 ```
-> docker run -d -p 80:80 \
+> docker run -d -p 5000:5000 \
 -v /path/to/repos:/srv/repos \
 -v /path/to/kallithea:/srv/kallithea  muquu/kallithea:0.5.2
 ```
