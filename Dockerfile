@@ -5,7 +5,7 @@ ENV TZ=Asia/Tokyo
 ENV LANG=en_US.UTF-8
 ENV KALLITHEA_VERSION 0.6.1
 
-RUN sed -i.bak -e "s%http://archive.ubuntu.com/ubuntu/%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
+#RUN sed -i.bak -e "s%http://archive.ubuntu.com/ubuntu/%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
 RUN apt-get -y update
 RUN apt-get -y upgrade
 
